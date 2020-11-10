@@ -1,6 +1,7 @@
 import React from "react";
 //import { Route, Swith } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer/Footer";
 import LogInForm from "./Components/LogInForm/LogInForm";
 import "./App.css";
 
@@ -10,7 +11,7 @@ function App() {
       <div className="app-container">
         <NavBar />
         <LogInForm />
-        <h1>footer</h1>
+        <Footer />
       </div>
     </div>
   );
