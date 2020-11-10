@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavButton } from "./NavButton/NavButton";
+import { LogOutBtn } from './LogOutBtn/LogOutBtn';
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./NavBar.css";
@@ -34,17 +34,8 @@ function NavBar() {
               Tank 2
             </Link>
           </li>
-          {/*<li>
-            <Link
-              to='/sign-up'
-              className='nav-links-mobile'
-              onClick={closeMobileMenu}
-            >
-              Log Out
-            </Link>
-          </li>*/}
         </ul>
-        <NavButton />
+        <LogOutBtn />
       </nav>
     </>
   );

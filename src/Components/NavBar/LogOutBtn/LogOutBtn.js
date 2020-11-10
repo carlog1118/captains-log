@@ -1,11 +1,11 @@
 import React from 'react';
-import './NavButton.css';
+import './LogOutBtn.css';
 import { Link } from 'react-router-dom';
 
-export function NavButton() {
+export function LogOutBtn() {
   return (
     <Link to='/'>
-      <button className='btn'>Log Out</button>
+      <button className='log-out-btn'>Log Out</button>
     </Link>
   );
 }
