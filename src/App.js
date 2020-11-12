@@ -1,5 +1,5 @@
 import React from "react";
-//import { Route, Swith } from "react-router-dom";
+//import { Route, Switch } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import LogInForm from "./Components/LogInForm/LogInForm";
